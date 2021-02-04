@@ -1,0 +1,19 @@
+[{
+	"api": "10.1.1.1:8080/yuwen",
+	"students": [{
+		"name": "lh",
+		"score": 88
+	}, {
+		"name": "cyx",
+		"score": 100
+	}]
+}, {
+	"api": "10.1.1.1:8080/shuxue",
+	"students": [{
+		"name": "lh",
+		"score": 50
+	}, {
+		"name": "cyx",
+		"score": 100
+	}]
+}]

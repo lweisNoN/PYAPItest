@@ -5,8 +5,9 @@ import json
 from API import callApi
 # 1. 打开测试文件 mock.data，这个代表测试数据
 # 可以是本地的excel，也可以是网页上填写的json
-with open('data.json', 'r') as f:
-    data = json.load(f)
+with open('data.json', 'r') as f1:
+    data = json.load(f1)
+f1.close()
 
 # 2. 测试获取结果
 

@@ -8,5 +8,8 @@ rm -rf Otput/*
 echo "执行测试 python 脚本"
 python FinalExam/Main.py
 
-echo "****** step5: 清理分支"
-git checkout .
+echo "转移数据"
+mv result.json Output/result.json
+
+echo "清理分支"
+# git checkout .
