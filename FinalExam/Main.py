@@ -30,7 +30,8 @@ student2['name'] = stu2ch[0]
 student2['ch'] = stu2ch[1]
 student2['en'] = stu2en[1]
 resArray = [student1, student2]
+
 with open('result.json', 'w') as f:
         json.dump(resArray, f)
+f.close()
 
-# 4. 保存结果文件
