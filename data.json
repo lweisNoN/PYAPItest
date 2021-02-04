@@ -2,7 +2,7 @@
 	"api": "10.1.1.1:8080/yuwen",
 	"students": [{
 		"name": "lh",
-		"score": 88
+		"score": 40
 	}, {
 		"name": "cyx",
 		"score": 100
